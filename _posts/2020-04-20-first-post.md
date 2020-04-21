@@ -5,7 +5,7 @@ categories: For Timeseries
 ---
 Python Code
 
-
+'''python
 # Min value
 f_min = lambda x: x.rolling(window=3, min_periods=1).min()
 # Max value
@@ -23,5 +23,5 @@ for i in range(len(function_list)):
 
 # Fill the empty std features with 0
 train_monthly['item_cnt_std'].fillna(0, inplace=True)
-
+'''
 REF:https://www.kaggle.com/dimitreoliveira/model-stacking-feature-engineering-and-eda
