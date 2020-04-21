@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+title: "Python rolling example"
+date: 2020-04-21 08:26:28 -0400
+categories: For Timeseries
 ---
